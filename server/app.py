@@ -2,6 +2,7 @@
 
 #!/usr/bin/env python3
 
+from builtins import setattr
 from flask import Flask, request, make_response
 from flask_migrate import Migrate
 from flask_restful import Api, Resource
